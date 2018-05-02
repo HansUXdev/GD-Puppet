@@ -1,0 +1,29 @@
+{
+  "name": "gd-starter",
+  "version": "1.0.0",
+  "description": "Taking the nightmare out of dns...",
+  "main": "signin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku": "echo \"Error: no test specified\" && exit 1",
+    "git": "git status && git add -A && git commit -m \"changed these files\" && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HansUXdev/gd-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HansUXdev/gd-starter/issues"
+  },
+  "homepage": "https://github.com/HansUXdev/gd-starter#readme",
+  "dependencies": {
+    "nightmare": "3.0.1",
+    "nightmare-iframe": "^1.0.2",
+    "nightmare-iframe-manager": "github:rosshinkley/nightmare-iframe-manager"
+  },
+  "devDependencies": {
+    "puppeteer": "^1.3.0"
+  }
+}
